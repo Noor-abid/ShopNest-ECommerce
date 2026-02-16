@@ -14,8 +14,7 @@ A responsive, full-featured E-Commerce frontend built with **React.js** and **Ta
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/shopnest.git
-cd shopnest
+git clone https://github.com/Noor-abid/ShopNest-ECommerce
 
 # Install dependencies
 npm install
@@ -32,30 +31,9 @@ npm run build
 ```bash
 npm create vite@latest shopnest -- --template react
 cd shopnest
-npm install -D tailwindcss postcss autoprefixer
+npm install -D tailwindcss@3 postcss autoprefixer
 npx tailwindcss init -p
 ```
-
-**tailwind.config.js:**
-```js
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  darkMode: 'class',
-  theme: { extend: {} },
-  plugins: [],
-}
-```
-
-**index.css:**
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-Replace `src/App.jsx` with the provided App.jsx file and run `npm run dev`.
-
----
 
 ## ✅ Features Implemented
 
@@ -188,6 +166,20 @@ src/
 
 ---
 
-## 👨‍💻 Author
+## 📸 Screenshots
 
-Built with ❤️ using React + Tailwind CSS
+### Home Page
+![Home Page](public/screenshots/home.png)
+
+### Products Page
+![Products Page](public/screenshots/products.png)
+
+### Product Detail Page
+![Product Detail](public/screenshots/product-detail.png)
+
+### Cart Page
+![Cart Page](public/screenshots/cart.png)
+
+### Login Page
+![Login Page](public/screenshots/login.png)
+Built using React + Tailwind CSS
