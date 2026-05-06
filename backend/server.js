@@ -20,7 +20,7 @@ app.use('/api/orders', require('./routes/orders'));
 
 // Test route
 app.get('/', (req, res) => {
-  res.send('ShopNest Backend is running! 🚀');
+  res.send('ShopNest Backend is running!yayy! 🚀');
 });
 
 // Start server
